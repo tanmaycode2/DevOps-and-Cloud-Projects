@@ -1,4 +1,10 @@
-To install Apache-superset on Windows server 2019
+# Step-by-step installation of Apache-superset on Windows server 2019
+
+**🙋‍♂️ INFO:** If you have fixes/suggestions to for this doc, please comment below.
+
+**🌟 STAR:** This doc if you found this document helpful.
+
+---
 
 1.) Enable Linux on Windows Server 2019.  
  ![image1](https://user-images.githubusercontent.com/96629547/190019856-b6d0c160-64a8-4cd8-87f3-ebfe4e432a84.png)
@@ -48,3 +54,12 @@ superset fab create-admin
 - Start a development web server on port 8088, use -p to bind to another port.  
 `superset run -p 8088 --with-threads --reload --debugger`
 If everything worked, you should be able to navigate to hostname:port in your browser (e.g. locally by default at localhost:8088 or  http://127.0.0.1:8088/login/) and login using the username and password you created.
+
+
+
+
+
+
+Refrences: 
+- https://www.easeus.com/data-recovery/python-setup-py-egg-info-failed-with-error-code-1.html
+- https://stackoverflow.com/questions/65193345/installing-apache-superset-on-windows-server-2019-and-connecting-superset-with
