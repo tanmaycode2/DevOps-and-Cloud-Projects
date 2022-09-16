@@ -41,7 +41,7 @@ Now Open the Ubuntu app from search option:
 First run the following command:  
 ```
 sudo add-apt-repository universe
-sudo apt-get update`
+sudo apt-get update
 sudo apt-get install -y python3-pip
 ```
  [Install Apache-superset installation guide](https://superset.apache.org/docs/installation/installing-superset-from-scratch/)
