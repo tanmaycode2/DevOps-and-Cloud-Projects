@@ -22,6 +22,8 @@ Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -Outfile Ubuntu.appx -UseB
 ```
 ![image2](https://user-images.githubusercontent.com/96629547/190021595-d331fa70-3ce4-4d7c-a5df-9a90dd60cfa8.png)
 
+Now Open the Ubuntu app from search option:
+
 ![image3](https://user-images.githubusercontent.com/96629547/190022819-d8b7a1e7-43cb-47fb-b1b8-bc050d8ffdfb.png)
 
 3.) Once you have both up and running, run the following commands in the Linux terminal mentioned here to installing Apache Superset:
