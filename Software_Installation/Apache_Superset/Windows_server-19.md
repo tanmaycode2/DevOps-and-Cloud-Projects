@@ -6,21 +6,32 @@
 
 ---
 
-1.) Enable Linux on Windows Server 2019.  
+1.) Enable WSL(Windows subsystem for Linux) on Windows Server 2019.  
 Go to Server Manager>Manage>Add Roles and features>Check the enable windows subsystem for linux.
  ![image1](https://user-images.githubusercontent.com/96629547/190019856-b6d0c160-64a8-4cd8-87f3-ebfe4e432a84.png)
- or run this command 
+ **or** 
+ Run below command 
  ```
  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
  ```
 ⭐ Sometimes server takes time to restart. Please wait for it...
 
-2.) Now install WSL on your system-  
-Follow these steps--> [Install WSL in Windows server](https://docs.microsoft.com/en-us/windows/wsl/install-on-server). Run this command 
+2.) Install Linux Distribution on your system  
+Follow these steps--> [Run Linux Distro of your choice](https://computingforgeeks.com/run-linux-on-windows-server/).
+or 
+Run the following command to install the Ubuntu 18.04 distro
 ```
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -Outfile Ubuntu.appx -UseBasicParsing
 ```
 ![image2](https://user-images.githubusercontent.com/96629547/190021595-d331fa70-3ce4-4d7c-a5df-9a90dd60cfa8.png)
+After downloading extract the zip file and run the .exe file to install the Ubuntu 18 as show below.
+```
+ls
+Rename-Item .\Ubuntu.appx Ubuntu.zip
+Expand-Archive .\Ubuntu.zip Ubuntu
+cd .\Ubuntu\
+.\ubuntu1804.exe
+```
 
 Now Open the Ubuntu app from search option:
 
