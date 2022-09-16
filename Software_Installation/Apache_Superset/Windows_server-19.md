@@ -9,6 +9,10 @@
 1.) Enable Linux on Windows Server 2019.  
 Go to Server Manager>Manage>Add Roles and features>Check the enable windows subsystem for linux.
  ![image1](https://user-images.githubusercontent.com/96629547/190019856-b6d0c160-64a8-4cd8-87f3-ebfe4e432a84.png)
+ or run this command 
+ ```
+ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+ ```
 ⭐ Sometimes server takes time to restart. Please wait for it...
 
 2.) Now install WSL on your system-  
